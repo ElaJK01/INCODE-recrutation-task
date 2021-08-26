@@ -113,10 +113,10 @@ img {
   .centered {
     position: absolute;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     font-family: 'Archivo Black', sans-serif;
-    top: 20%;
+    top: 15%;
     left: 20%;
     right: 20%;
    
@@ -153,7 +153,7 @@ img {
     justify-content: center;
     color: rgb(85, 93, 107);
     font-family: 'Archivo Black', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-stretch: extra-expanded;
     text-align:center;
     margin-top: 50px;
@@ -190,7 +190,7 @@ img {
     color: rgb(85, 93, 107);
     padding-top: 30px;
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Archivo Black', sans-serif;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -207,17 +207,16 @@ img {
     float: left;
     width: 5%;
     padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-
+    margin-left: 20%;
+   
 }
 
-#acueil {
+#accueil {
     float: left;
     width: 50%;
-    padding: 10px;
-    text-align: end;
+    font-size: 20px;
+    padding: 70px 0;
+    
 }
 
 #programme-text:after {
@@ -227,11 +226,20 @@ img {
     
 }
 
+#programme-text {
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 #programme-tuesdays {
     float: left;
     width: 50%;
     padding: 10px;
     text-align: center;
+    justify-content: center;
+      
 }
 
 #programme-thursdays {
@@ -239,5 +247,20 @@ img {
     width: 50%;
     padding: 10px;
     text-align: center;
-    
+    justify-content: center;
+   
+}
+
+
+#programme-tuesdays p {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+#programme-thursdays p {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
 }
