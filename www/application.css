@@ -106,6 +106,9 @@ img {
 
  /*content Homepage*/
 
+
+ /*Main img*/
+
  .container {
     display: flex;
     justify-content: center;
@@ -130,6 +133,7 @@ img {
   }
 
 
+  /*Tree gray icons*/
 
 .gray-icons {
     background-color: lightgray;
@@ -191,6 +195,8 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Button*/
+
 #button {
     display: flex;
     justify-content: center;
@@ -207,6 +213,8 @@ img {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+
+/*Programme*/
 
 #programme {
     display: flex;
@@ -296,6 +304,8 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/*Last lines on Homepage*/
 
 .bottom-text {
     display: flex;
