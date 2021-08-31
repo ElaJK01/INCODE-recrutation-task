@@ -140,12 +140,38 @@ img {
 
  /*content Homepage*/
 
+ .dark-logo-container {
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+/*resize dark logo */
+.dark-logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+#coffe-salle-container {
+    width: 1400px;
+    height: 1000px;
+}
+
+#coffe-salle-container img {
+    width: 100%;
+    height: auto;
+}
 
  /*Main img*/
 
  .container {
     display: flex;
     justify-content: center;
+    width: 100%;
     
 }
 
@@ -173,7 +199,7 @@ img {
 .gray-icons {
     background-color: lightgray;
     height: 0; 
-    width:20%;
+    width: 20%;
     padding-bottom:20%;
     margin: 50px 50px 50px 50px;
     float: left;
@@ -204,7 +230,7 @@ img {
 #tree-img {
     display: flex;
     justify-content: center;
-        
+    width: 100%;       
 }
 
 
@@ -216,7 +242,7 @@ img {
     font-size: 20px;
     font-stretch: extra-expanded;
     text-align:center;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 10px;
