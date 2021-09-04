@@ -815,8 +815,32 @@ img {
               
     }
 
+    .icon {
+        margin-top: 20px;
+    }
+
     .centered h1 {
         font-size: 25px;
+    }
+
+    .icon-text {
+        margin-bottom: 10px;
+    }
+
+    #button {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        
+    }
+
+    #programme h2 {
+        margin-top: 0px;
+        font-size: 25px;
+        
+    }
+
+    .last {
+        font-size: 20px;
     }
 
 
